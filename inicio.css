@@ -1,0 +1,43 @@
+body {
+	background: black;
+}
+
+header {
+	background: #76b900;
+	padding: 20px 0;
+}
+
+.cabeçalho {
+	position: relative;
+	width: 1240px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 65px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 35px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+.formataçãoinicio {
+	font-size: 24px;
+	color:  #76b900;
+}
